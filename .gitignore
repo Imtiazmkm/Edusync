@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.python-version
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# PyCharm specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# Logs and local environment files
+*.log
+*.env
+*.sqlite3
+*.db
+
+# Test coverage and reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery beat schedule files
+celerybeat-schedule
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Local environment settings
+.envrc
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+*.env.stage
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Packages
+*.egg
+*.wheel
+
+# Profiling data
+.prof
+
+# Coverage reports
+*.coverage
+coverage.xml
+.cache/
+
+# Pipenv specific files
+Pipfile
+Pipfile.lock
+
+# Poetry specific files
+poetry.lock
+.pyre/
+
+# Flask/Django static and media files
+staticfiles/
+media/
+
+# Pyre type checker
+.pyre/
